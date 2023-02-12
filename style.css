@@ -1,0 +1,193 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #eee;
+  position: relative;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0; 
+  position:sticky;
+  top: 15px;
+  left: 0;
+  background-color: #eee;
+}
+
+#header-img{
+  max-width: 300px;
+  width: 50%
+}
+
+#nav{
+  width: 50%;
+}
+
+#nav-bar ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+
+}
+#nav-bar li{
+  margin-right: 40px;
+}
+
+#nav-bar .nav-link{
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #000;
+  
+}
+
+section{
+  padding: 100px 150px;
+}
+
+#section-one{
+text-align: center;
+}
+
+#section-h1{
+  font-size: 22px;
+  font-weight: 500;
+}
+#form{
+margin: 15px 0;
+}
+
+#email{
+  padding: 8px 15px;
+}
+
+#submit{
+  background-color: yellow;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#submit:hover{
+  background-color: yellowgreen;
+}
+
+/* section two */
+#section-two{
+
+}
+#section-two .state{
+  display: flex;
+  
+  margin-bottom: 50px;
+}
+.state-30{
+  width: 15%;
+}
+.state-70{
+  width: 70%;
+}
+
+#section-two i{
+  font-size: 50px;
+  color: yellow;
+  display: inline-block;
+}
+
+#section-two h1{
+  margin-bottom: 10px;
+}
+
+#video{
+  text-align: center;
+  margin: auto;
+}
+
+/* section card */
+#section-three{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.card{
+  border: 1px solid #000;
+  text-align: center;
+  min-width: 180px;
+  height: 280px;
+
+
+}
+.card h3{
+  background-color: #777;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: 400;
+}
+.card .price{
+  font-size: 25px;
+  margin-bottom: 10px;
+
+}
+.card .text{
+  margin-bottom: 15px;
+  width: 40%;
+  margin: auto;
+  font-size: 19px;
+}
+.card a{
+  background-color: yellow;
+  padding: 10px 15px;
+  color: #000;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+
+}
+.card a:hover{
+  text-decoration: underline;
+}
+
+/* footer */
+
+footer{
+margin: 100px 150px;
+margin-bottom: 0;
+text-align: right;
+background-color: #404040;
+padding: 20px;
+}
+footer ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+footer ul li{
+  margin-left: 10px;
+}
+
+footer ul a{
+  text-decoration: none;
+  color: #cccccc;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+footer ul a:hover{
+  color: #8f8f8f;
+}
+
+footer .copyright{
+  text-align: right;
+  margin-top: 8px;
+}
